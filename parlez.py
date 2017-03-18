@@ -8,6 +8,7 @@ parser = argparse.ArgumentParser(description="parse which vocab lists to load")
 
 # different files which exist
 parser.add_argument('-c','--cats', dest='docats', action='store_true', default=False)
+parser.add_argument('-v','--verbs', dest='doverbs', action='store_true', default=False)
 args = parser.parse_args()
 
 totallist = [""]
@@ -15,6 +16,10 @@ totallist = [""]
 if(args.docats):
  from cats import cats
  totallist+=cats
+
+if(args.doverbs):
+ from verbs import verbs
+ totallist+=verbs
  
 import random
 print(random.choice(totallist))
