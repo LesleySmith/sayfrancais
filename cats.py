@@ -10,5 +10,9 @@ cats=[
 "mrwow",
 "mreeeowww",
 "wroowww",
-"moooowww"
+"moooowww",
+"rrrrroooow",
+"mrwow mrow",
+"mow mow mow",
+"roow mrrrr",
 ]
